@@ -1,0 +1,22 @@
+{
+    "description": "Whitelist of allowed MCP tools. Remove tool names to disable them.",
+    "allowedTools": [
+        "AdminGetProducts",
+        "AdminGetProductsId",
+        "AdminPostProductsBatch",
+        "AdminGetProductsIdOptions",
+        "AdminGetProductsIdOptionsOption_id",
+        "AdminGetProductsIdVariants",
+        "AdminGetProductsIdVariantsVariant_id",
+        "AdminPostProductsIdVariantsBatch",
+        "AdminGetProductCategories",
+        "AdminGetProductCategoriesId",
+        "AdminPostProductCategoriesIdProducts",
+        "AdminGetProductTags",
+        "AdminGetProductTagsId",
+        "AdminGetProductTypes",
+        "AdminGetProductTypesId"
+    ],
+    "note": "To allow all tools, set allowAllTools to true or remove/empty the allowedTools array",
+    "allowAllTools": false
+}

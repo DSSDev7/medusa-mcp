@@ -4,7 +4,7 @@ COPY . /app
 WORKDIR /app
 
 # Install dependencies and build TypeScript code
-RUN npm install && npm run build
+RUN npm install -f && npm run build
 
 # Set environment variables
 ENV NODE_ENV=production
